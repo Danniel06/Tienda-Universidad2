@@ -60,7 +60,7 @@
                         <img src="{{$product->image}}" alt="">
                         <div class="hover-galeria">
                             <img src="img/icono1.png" alt="">
-                            <p>Comprar</p>
+                            <a href="{{ URL::to('products/' . $product->id) }}">Comprar</a>
                         </div>
                     </div>
                     @endforeach
