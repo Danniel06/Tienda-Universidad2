@@ -24,7 +24,7 @@
                         <input type="hidden" value="{{ $product->price }}" name="price">
                         <input type="hidden" value="{{ $product->image }}" name="image">
                         <input type="hidden" value="1" name="quantity">
-                        <button class="px-4 py-2 text-white bg-blue-800 rounded">Add To Cart</button>
+                        <button class="px-4 py-2 text-white bg-blue-800 rounded">Agregar al carrito</button>
                     </form>
                 </div>
             </div><img src="{{$product->image}}" alt="Generic placeholder image" width="200"

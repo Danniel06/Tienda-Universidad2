@@ -9,7 +9,7 @@
                     <p class="text-green-800">{{ $message }}</p>
                 </div>
                 @endif
-                <h3 class="text-3xl text-bold">Cart List</h3>
+                <h3 class="text-3xl text-bold">Carrito</h3>
                 <div class="flex-1">
                     <table class="w-full text-sm lg:text-base" cellspacing="0">
                         <thead>

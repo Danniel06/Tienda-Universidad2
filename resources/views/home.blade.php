@@ -55,92 +55,15 @@
             <div class="contenedor">
                 <h2 class="titulo">Algunos de Nuestros Productos</h2>
                 <div class="galeria-port">
-
+                    @foreach ($products as $product)
                     <div class="imagen-port">
-                        <img src="img/Par1.png" alt="">
+                        <img src="{{$product->image}}" alt="">
                         <div class="hover-galeria">
                             <img src="img/icono1.png" alt="">
                             <p>Comprar</p>
                         </div>
                     </div>
-                    <div class="imagen-port">
-                        <img src="img/Par13.png" alt="">
-                        <div class="hover-galeria">
-                            <img src="img/icono1.png" alt="">
-                            <p>Comprar</p>
-                        </div>
-                    </div>
-                    <div class="imagen-port">
-                        <img src="img/Par3.png" alt="">
-                        <div class="hover-galeria">
-                            <img src="img/icono1.png" alt="">
-                            <p>Comprar</p>
-                        </div>
-                    </div>
-                    <div class="imagen-port">
-                        <img src="img/Par14.png" alt="">
-                        <div class="hover-galeria">
-                            <img src="img/icono1.png" alt="">
-                            <p>Comprar</p>
-                        </div>
-                    </div>
-                    <div class="imagen-port">
-                        <img src="img/Par5.png" alt="">
-                        <div class="hover-galeria">
-                            <img src="img/icono1.png" alt="">
-                            <p>Comprar</p>
-                        </div>
-                    </div>
-                    <div class="imagen-port">
-                        <img src="img/Par15.png" alt="">
-                        <div class="hover-galeria">
-                            <img src="img/icono1.png" alt="">
-                            <p>Comprar</p>
-                        </div>
-                    </div>
-                    <div class="imagen-port">
-                        <img src="img/Par16.png" alt="">
-                        <div class="hover-galeria">
-                            <img src="img/icono1.png" alt="">
-                            <p>Comprar</p>
-                        </div>
-                    </div>
-                    <div class="imagen-port">
-                        <img src="img/Par17.png" alt="">
-                        <div class="hover-galeria">
-                            <img src="img/icono1.png" alt="">
-                            <p>Comprar</p>
-                        </div>
-                    </div>
-                    <div class="imagen-port">
-                        <img src="img/Par9.png" alt="">
-                        <div class="hover-galeria">
-                            <img src="img/icono1.png" alt="">
-                            <p>Comprar</p>
-                        </div>
-                    </div>
-                    <div class="imagen-port">
-                        <img src="img/Par10.png" alt="">
-                        <div class="hover-galeria">
-                            <img src="img/icono1.png" alt="">
-                            <p>Comprar</p>
-                        </div>
-                    </div>
-                    <div class="imagen-port">
-                        <img src="img/Par11.png" alt="">
-                        <div class="hover-galeria">
-                            <img src="img/icono1.png" alt="">
-                            <p>Comprar</p>
-                        </div>
-                    </div>
-                    <div class="imagen-port">
-                        <img src="img/Par12.png" alt="">
-                        <div class="hover-galeria">
-                            <img src="img/icono1.png" alt="">
-                            <p>Comprar</p>
-                        </div>
-                    </div>
-
+                    @endforeach
                 </div>
             </div>
             </div>
