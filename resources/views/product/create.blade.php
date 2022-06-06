@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="container">
-    <h1>Crear producto sape</h1>
+    <h1>Crear producto</h1>
     <div class="row justify-content-center">
         @if(session('status'))
         <div class="alert alert-success mb-1 mt-1">
